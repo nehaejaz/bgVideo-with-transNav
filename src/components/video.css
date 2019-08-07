@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
   justify-content: center;
   overflow: hidden;
@@ -24,6 +24,8 @@
   top: 0;
   left: 0;
   width: 100%;
+  /* background-color: aqua; */
+  z-index: -1;
 }
 
 /* .color-overlay {
@@ -44,7 +46,7 @@
   padding-top: 3%;
 }
 
-.sidenav-overlay {
+/* .sidenav-overlay {
   opacity: 0 !important;
 }
 
@@ -52,4 +54,4 @@
   opacity: 0.8;
   width: 33%;
   padding-top: 13%;
-}
+} */
