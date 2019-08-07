@@ -1,14 +1,19 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Video from "./components/Video";
-import Example from "./components/Example";
+import BackgroundVideo from "./components/BackgroundVideo";
+import video from "./nature.mp4";
 
 function App() {
   return (
     <div className="App">
-      <Video />
-      {/* <Example /> */}
+      <BackgroundVideo
+        videoUrl={video}
+        navLinks={[
+          { link: "/dashboard", name: "First Link" },
+          { link: "/home", name: "Second Link" }
+        ]}
+        logo="logo"
+      />
     </div>
   );
 }
